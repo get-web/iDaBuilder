@@ -1,4 +1,4 @@
-# Gulp builder by Vitalii P.
+# iDaBuilder — Сборка Gulp + PostCSS
 
 ## Особенности
 
@@ -144,6 +144,5 @@ gulp-pug-starter
 ├── index.js
 ├── package-lock.json
 ├── package.json
-├── .npmrc.js
 └── .gitignore
 ```
