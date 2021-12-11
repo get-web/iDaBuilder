@@ -1,0 +1,117 @@
+:root {
+    /* body */
+    --body-min-width: 320px;
+    --body-max-width: 1920px;
+    --body-background-color: #141414;
+
+    /* container */
+    --container-width: 1200px;
+
+    /* fonts */
+    --font-0: 'PT Sans', Tahoma, Arial, sans-serif;
+    --font-1: 'Philosopher', 'Times New Roman', Times, serif;
+    --font-2: 'Montserrat', Arial, sans-serif;
+    --font-3: 'Alice', 'Times New Roman', Times, serif;
+    --font-ico: 'gwi';
+
+    /* colors */
+    --color-light: #e8d1a6;
+    --color-dark: #000;
+
+    --color-red: #ff2727;
+    --color-yellow: yellow;
+    --color-orange: orange;
+    --color-pink: pink;
+    --color-purple: purple;
+    --color-blue: blue;
+    --color-green: green;
+    --color-grey: grey;
+    --color-white: white;
+    --color-black: black;
+    --color-brown: brown;
+    --color-aqua: aqua;
+
+    /* color palette */
+    --color-0: #fff;
+    --color-1: #141414;
+    --color-2: #fff;
+    --color-3: #fff;
+    --color-4: #fff;
+    --color-5: #fff;
+    --color-6: #fff;
+    --color-7: #fff;
+    --color-8: #fff;
+    --color-9: #fff;
+    --color-accent: var(--color-orange);
+
+    /* alternative naming */
+    --color-main: var(--color-0);
+    --color-primary: var(--color-1);
+    --color-secondary: var(--color-2);
+
+    /* other colors */
+    --color-url: var(--color-orange);
+
+    /* input */
+    --input-width: auto;
+    --input-height: 38px;
+    --input-bg: #fff;
+    --input-border: 1px solid #DADADA;
+    --input-border-radius: 4px;
+    --input-color: #455971;
+    --input-text-align: left;
+    --input-font-family: var(--font-main);
+    --input-font-size: 14px;
+    --input-font-weight: 400;
+    --input-padding: 3px 10px;
+    --input-box-shadow: none;
+    --input-outline: none;
+    --input-disabled-bg: #f9f9f9;
+
+    /* input:placeholder */
+    --input-placeholder-color: #999999;
+    --input-placeholder-color-focus: transparent;
+
+    /* input:focus */
+    --input-focus-focus-width: var(--input-width);
+    --input-focus-height: var(--input-height);
+    --input-focus-bg: var(--input-bg);
+    --input-focus-border: var(--input-border);
+    --input-focus-border-radius: var(--input-border-radius);
+    --input-focus-color: var(--input-color);
+    --input-focus-text-align: var(--input-text-align);
+    --input-focus-font-family: var(--input-font-family);
+    --input-focus-font-size: var(--input-font-size);
+    --input-focus-font-weight: var(--input-font-weight);
+    --input-focus-padding: var(--input-padding);
+    --input-focus-box-shadow: var(--input-box-shadow);
+    --input-focus-outline: var(--input-outline);
+    --input-focus-disabled-bg: var(--input-disabled-bg);
+
+    /* margin */
+    --margin: 10px;
+    --margin-x2: calc(var(--margin * 2));
+    --margin-half: calc(var(--margin) / 2);
+    --margin-third: calc(var(--margin) / 3);
+    --negative-margin: -10px;
+
+    /* other */
+    --border-radius: 5px;
+    --border-width: 1px;
+    --border-type: solid;
+    --border-color: #2F7EB8;
+
+    /* table */
+    --table-heading-bg: #1F6EA8;
+    --table-bg: #2F7EB8;
+    --table-border-width: 1px;
+    --table-border-type: solid;
+    --table-border-color: #2F7EB8;
+
+    /* tippy */
+    --tippy-bg-color: #fff;
+    --tippy-text-color: var(--color-1);
+    --tippy-font-size: 15px;
+    --tippy-border-radius: 5px;
+    --tippy-border-color: #F1C93C;
+}

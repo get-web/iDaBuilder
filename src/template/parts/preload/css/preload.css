@@ -1,0 +1,53 @@
+/* preload */
+
+.preload {
+  background-color: var(--body-background-color);
+  min-width: var(--body-min-width);
+  position: fixed;
+  z-index: 500;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s cubic-bezier(0.64, 0.14, 0.34, 1.32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.preload__logo {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.preload_fade {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.4);
+}
+
+@keyframes preanimateout {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
+
+.preload__progress {
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background: rgb(200, 129, 107);
+}
