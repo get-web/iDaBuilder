@@ -183,22 +183,15 @@
 /* alternative naming */
 
 .color-main {
-    color: var(--color-main);
+    color: var(--color-0);
 }
 
 .color-primary {
-    color: var(--color-primary);
+    color: var(--color-1);
 }
 
 .color-secondary {
-    color: var(--color-secondary);
-}
-
-/* icons */
-
-[class^="gwi_"]:before,
-[class*=" gwi_"]:before {
-    margin: 0;
+    color: var(--color-2);
 }
 
 /* other */
@@ -225,60 +218,4 @@
 
 .text-right {
     text-align: right;
-}
-
-.fw400 {
-    font-weight: 400;
-}
-
-.fw500 {
-    font-weight: 500;
-}
-
-.fw600 {
-    font-weight: 600;
-}
-
-.fw700 {
-    font-weight: 700;
-}
-
-.fs08 {
-    font-size: 0.8em;
-}
-
-.fs085 {
-    font-size: 0.85em;
-}
-
-.fs09 {
-    font-size: 0.9em;
-}
-
-.fs095 {
-    font-size: 0.95em;
-}
-
-.fs11 {
-    font-size: 1.1em;
-}
-
-.fs12 {
-    font-size: 1.2em;
-}
-
-.fs13 {
-    font-size: 1.3em;
-}
-
-.fs14 {
-    font-size: 1.4em;
-}
-
-.fs15 {
-    font-size: 1.5em;
-}
-
-.fs2 {
-    font-size: 2em;
 }

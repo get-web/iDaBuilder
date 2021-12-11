@@ -44,11 +44,6 @@
     --color-9: #fff;
     --color-accent: var(--color-orange);
 
-    /* alternative naming */
-    --color-main: var(--color-0);
-    --color-primary: var(--color-1);
-    --color-secondary: var(--color-2);
-
     /* other colors */
     --color-url: var(--color-orange);
 
