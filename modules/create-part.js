@@ -1,10 +1,11 @@
 import { promises as fs } from "fs";
 import colors from "colors";
 
-export const create = async (name, type = "section", callback) => {
+export const create = async (name, type = "block", callback) => {
 	if (!name) return false;
 	const directory = "./src/template/parts/";
 	let create = type === "section" ? createSection : createBlock;
+	let createCSS = type === "section" ? createSectionCSS : createBlockCSS;
 	try {
 		const stat = await fs.stat(directory + name);
 		console.log("The directory has already been created".red);
@@ -38,13 +39,29 @@ function createSection(name) {
 </section> <!-- END  section -->`;
 }
 
+function createSectionCSS(name) {
+	return `/* ${name} */
+    
+[data-section="${name}"] {
+
+}
+
+[data-container="${name}"] {
+	
+}
+
+.${name} {
+
+}`;
+}
+
 function createBlock(name) {
 	return `<div class="${name}">
 
 </div> <!-- END ${name} -->`;
 }
 
-function createCSS(name) {
+function createBlockCSS(name) {
 	return `/* ${name} */
 
 .${name} {

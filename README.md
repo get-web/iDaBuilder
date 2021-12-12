@@ -32,10 +32,10 @@
 
 `npm run prod` - Сборка для продакшена.
 
-`npm run create {name}` или `npm run create {name} section` - Создание новых
-секций.
+`npm run create {name}` или `npm run create {name} block` - Создание новых
+блоков.
 
-`npm run create {name} block` - Создание новых блоков.
+`npm run create {name} section` - Создание новых секций.
 
 ### Подробнее:
 
@@ -47,10 +47,10 @@
 разработку как и в режиме DEV, но скорость сборки соответственно медленне за
 счет большего количества процессов. (рабочая папка **_prod_**)
 
-**npm run create {name}** или **npm run create {name} section** или **npm run
-create {name} block** - Создание новых секций. В папке **_src/template/parts_**
-будет создана новая папка с названием _{name}_ (имя которое вы дадите новой
-секции/блоку). В папке _{name}_ будут созданы:
+**npm run create {name}** или **npm run create {name} block** или **npm run
+create {name} section** - Создание новых секций. В папке
+**_src/template/parts_** будет создана новая папка с названием _{name}_ (имя
+которое вы дадите новой секции/блоку). В папке _{name}_ будут созданы:
 
 - файл {name}.html с разметкой по умолчанию
 - папка images внутри которой будет создана папка {name}
